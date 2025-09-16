@@ -22,5 +22,4 @@ int main()
     printf("%.2lf\n", res);
 
     return 0;
-
 }
