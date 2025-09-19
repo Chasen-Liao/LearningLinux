@@ -1,0 +1,293 @@
+<!DOCTYPE html><html><head>
+      <title>第二次作业</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\86183\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.19\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h2 id="1-文本处理命令grep-cut--sort-wc-diff-cmp和正则表达式">1. 文本处理命令（grep cut  sort wc diff cmp）和正则表达式 </h2>
+<ol>
+<li>显示/etc/locale.gen中以'zh'开头的行。</li>
+</ol>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>grep <span class="token operator">-</span>i <span class="token string">'^zh'</span> <span class="token operator">/</span>etc<span class="token operator">/</span>locale<span class="token punctuation">.</span>gen
+</code></pre><ol start="2">
+<li>显示/etc/passwd文件中<strong>不</strong>是'/bin/bash'结尾的行。</li>
+</ol>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>grep <span class="token operator">-</span>v <span class="token string">'/bin/bash$'</span> <span class="token operator">/</span><span class="token builtin">bin</span><span class="token operator">/</span>bash
+</code></pre><ol start="3">
+<li>将/etc/group中的数字单独列出。</li>
+</ol>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>grep <span class="token operator">-</span>oE <span class="token string">'[0-9]+'</span> <span class="token operator">/</span>etc<span class="token operator">/</span>group
+</code></pre><ol start="4">
+<li>列出netstat -ant命令结果中出现端口为22（:22）的行。</li>
+</ol>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>netstat <span class="token operator">-</span>ant <span class="token operator">|</span> grep <span class="token string">':22 '</span>
+</code></pre><ol start="5">
+<li>配合cut命令查看/etc/passwd，只显示系统中的用户名、UID、GID。</li>
+</ol>
+<p>提示：</p>
+<p>passwd文件每行数据：</p>
+<p><code>root:x:0:0:root:/root:/bin/bash</code></p>
+<p>解释：</p>
+<p><code>用户名:密码:UID（用户ID）:GID（组ID）:描述:主目录:缺省Shell</code></p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>cut <span class="token operator">-</span>d<span class="token punctuation">:</span> <span class="token operator">-</span>f1<span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span> <span class="token operator">/</span>etc<span class="token operator">/</span>passwd
+</code></pre><ol start="6">
+<li>利用wc命令，通过/etc/passwd文件计算系统中的用户总数。</li>
+</ol>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>wc <span class="token operator">-</span>l <span class="token operator">/</span>etc<span class="token operator">/</span>passwd <span class="token operator">|</span> cut <span class="token operator">-</span>d<span class="token string">' '</span> <span class="token operator">-</span>f1
+</code></pre><ol start="7">
+<li>列出/etc/passwd中的root用户（UID=0的用户）。要显示出root用户的所在整行。</li>
+</ol>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>grep <span class="token string">'^[^:]*:[^:]*:0:'</span> <span class="token operator">/</span>etc<span class="token operator">/</span>passwd
+</code></pre><ol start="8">
+<li>根据UID的大小，降序排列/etc/passwd中行并显示。要显示整行数据。</li>
+</ol>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>sort <span class="token operator">-</span>t<span class="token punctuation">:</span> <span class="token operator">-</span>k3 <span class="token operator">-</span>nr <span class="token operator">/</span>etc<span class="token operator">/</span>passwd
+</code></pre><ol start="9">
+<li>df命令可以查看各个挂载区的利用率，请按利用率（已用%）从大到小排列，并显示。</li>
+</ol>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>df <span class="token operator">-</span>h <span class="token operator">|</span> sort <span class="token operator">-</span>k5 <span class="token operator">-</span>nr
+</code></pre><ol start="10">
+<li>last命令可以查看最近登录的主机ip，请按ip进行统计并显示。<strong>*选做</strong></li>
+</ol>
+<p>提示：统计时可以采用uniq -c命令</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>uniq命令读取输入文件，并进行比较，第二个及以后更多个重复行将被删去。
+
+-c参数：输出时，在每行行首加上该行在文件中出现的次数。
+</code></pre><pre data-role="codeBlock" data-info="python" class="language-python python"><code>last <span class="token operator">|</span> grep <span class="token operator">-</span>Eo <span class="token string">'[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+'</span> <span class="token operator">|</span> sort <span class="token operator">|</span> uniq <span class="token operator">-</span>c <span class="token operator">|</span> sort <span class="token operator">-</span>k1 <span class="token operator">-</span>nr
+</code></pre><ol start="11">
+<li>统计字母出现次数。<strong>*选做</strong></li>
+</ol>
+<p>英文诗：</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>The seasons
+Spring is gay with flower and song
+Summmer is hot and days are long
+Autumn is rich with fruit and grain
+Winter brings snow and the New Year again
+</code></pre><p>将上面英文诗写入文件seasons.txt中，然后计算每个字母出现的次数，大小写不区分。</p>
+<p>提示：统计时可以采用uniq -c命令</p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>$ cat seasons<span class="token punctuation">.</span>txt <span class="token operator">|</span> tr <span class="token string">':upper:'</span> <span class="token string">':lower:'</span> <span class="token operator">|</span> grep <span class="token operator">-</span>o <span class="token string">'[a-z]'</span> <span class="token operator">|</span> sort <span class="token operator">|</span> uniq <span class="token operator">-</span>c <span class="token operator">|</span> sort <span class="token operator">-</span>nr
+     <span class="token number">14</span> n
+     <span class="token number">12</span> i
+     <span class="token number">12</span> a
+     <span class="token number">10</span> s
+     <span class="token number">10</span> r
+      <span class="token number">9</span> e
+      <span class="token number">7</span> t
+      <span class="token number">7</span> g
+      <span class="token number">6</span> w
+      <span class="token number">6</span> o
+      <span class="token number">6</span> l
+      <span class="token number">6</span> h
+      <span class="token number">5</span> d
+      <span class="token number">4</span> m
+      <span class="token number">2</span> y
+      <span class="token number">2</span> f
+      <span class="token number">1</span> c
+      <span class="token number">1</span> b
+</code></pre><ol start="12">
+<li>读取上面seasons.txt文件，寻找大写S开头的行。</li>
+</ol>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>grep <span class="token string">'S'</span> season<span class="token punctuation">.</span>txt
+</code></pre><ol start="13">
+<li>读取上面seasons.txt文件，寻找a开头（不区分大小写）的单词。</li>
+</ol>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code></code></pre><ol start="14">
+<li>读取上面seasons.txt文件，寻找f或者s开头（不区分大小写）的单词。</li>
+</ol>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>grep <span class="token operator">-</span>oi <span class="token string">'\ba[a-z]*\b'</span> seasons<span class="token punctuation">.</span>txt
+</code></pre><ol start="15">
+<li>文件data.txt中数据：<strong>*选做</strong></li>
+</ol>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>叶湘伦 13888888888 330301200109090017 yxl@test.com 2023-08-08 5000.45
+路小雨 18966666666 220101200210110023 lxy@test.com 2023-08-09 4800.88
+</code></pre><p><a href="assets/data.txt">data.txt</a></p>
+<p>请匹配文本中的电话号码、身份证号码、邮箱、日期。</p>
+<pre data-role="codeBlock" data-info="python" class="language-python python"><code>grep <span class="token operator">-</span>Eo <span class="token string">'1[0-9]{10}'</span> data<span class="token punctuation">.</span>txt
+<span class="token comment"># 解释：1[0-9]{10} 匹配1开头后面跟10位数字的电话号码</span>
+<span class="token comment"># 身份证号码匹配：18位数字，或以X结尾</span>
+grep <span class="token operator">-</span>Eo <span class="token string">'[0-9]{17}[0-9X]'</span> data<span class="token punctuation">.</span>txt
+<span class="token comment"># 解释：[0-9]{17} 匹配17位数字，[0-9X] 匹配数字或X</span>
+<span class="token comment"># 邮箱匹配：包含@和.的字符串</span>
+grep <span class="token operator">-</span>Eo <span class="token string">'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'</span> data<span class="token punctuation">.</span>txt
+<span class="token comment"># 解释：匹配标准邮箱格式，包含用户名@域名.后缀</span>
+<span class="token comment"># 日期匹配：YYYY-MM-DD格式</span>
+grep <span class="token operator">-</span>Eo <span class="token string">'[0-9]{4}-[0-9]{2}-[0-9]{2}'</span> data<span class="token punctuation">.</span>txt
+</code></pre><h2 id="2-问答题">2. 问答题 </h2>
+<h3 id="21-下图为linux系统目录树结构的一部分">2.1. 下图为Linux系统目录树结构的一部分。 </h3>
+<p><img src="assets/%E4%BD%9C%E4%B8%9A2%E9%A2%98%E7%9B%AE2%E9%85%8D%E5%9B%BE.png" alt=""></p>
+<ol>
+<li>用户gdufe与用户root的家目录在哪里？</li>
+</ol>
+<p>gdufe的工作目录在/home/gdufe；root的工作目录在/root</p>
+<p>答：</p>
+<p>在Linux系统中，普通用户的家目录通常在/home/用户名下，root在/root</p>
+<ol start="2">
+<li>若当前工作目录是/home/gdufe，请给出目录mike、usr的相对路径与绝对路径。</li>
+</ol>
+<p>若当前工作目录是/home/gdufe，mike的相对路径为../mike，绝对路径为/home/mike，usr的相对路径为../../usr，绝对路径为/usr。</p>
+<p>答：</p>
+<p>相对路径是相对于当前目录的路径，../表示上一级目录；绝对路径是从根目录开始的完整路径</p>
+<h2 id="3-编程题">3. 编程题 </h2>
+<h3 id="31-汉诺塔tower-of-hanoi是一个源于印度古老传说的益智玩具大梵天创造世界的时候做了三根金刚石柱子在一根柱子上从下往上按照大小顺序摞着64片黄金圆盘大梵天命令婆罗门把圆盘从下面开始按大小顺序重新摆放在另一根柱子上并且规定在小圆盘上不能放大圆盘在三根柱子之间一次只能移动一个圆盘请用c语言采用解决汉诺塔问题">3.1. 汉诺塔（Tower of Hanoi），是一个源于印度古老传说的益智玩具。大梵天创造世界的时候做了三根金刚石柱子，在一根柱子上从下往上按照大小顺序摞着64片黄金圆盘。大梵天命令婆罗门把圆盘从下面开始按大小顺序重新摆放在另一根柱子上。并且规定，在小圆盘上不能放大圆盘，在三根柱子之间一次只能移动一个圆盘。请用C语言采用解决汉诺塔问题。 </h3>
+<p>三根柱子分别用'A'，'B'，'C'表示。</p>
+<p>输入：盘子数。</p>
+<p>输出：移动步骤。</p>
+<p>例如：<br>
+输入：3<br>
+输出：<br>
+A-&gt;C<br>
+A-&gt;B<br>
+C-&gt;B<br>
+A-&gt;C<br>
+B-&gt;A<br>
+B-&gt;C<br>
+A-&gt;C</p>
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+
+<span class="token comment">// 汉诺塔递归函数</span>
+<span class="token keyword keyword-void">void</span> <span class="token function">hanoi</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> n<span class="token punctuation">,</span> <span class="token keyword keyword-char">char</span> from<span class="token punctuation">,</span> <span class="token keyword keyword-char">char</span> to<span class="token punctuation">,</span> <span class="token keyword keyword-char">char</span> aux<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>n <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%c-&gt;%c\n"</span><span class="token punctuation">,</span> from<span class="token punctuation">,</span> to<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 只有一个盘子时直接移动</span>
+        <span class="token keyword keyword-return">return</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">hanoi</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">,</span> from<span class="token punctuation">,</span> aux<span class="token punctuation">,</span> to<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 将n-1个盘子从起始柱移动到辅助柱</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%c-&gt;%c\n"</span><span class="token punctuation">,</span> from<span class="token punctuation">,</span> to<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 将最大的盘子从起始柱移动到目标柱</span>
+    <span class="token function">hanoi</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">,</span> aux<span class="token punctuation">,</span> to<span class="token punctuation">,</span> from<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 将n-1个盘子从辅助柱移动到目标柱</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-int">int</span> n<span class="token punctuation">;</span>
+    <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 输入盘子数量</span>
+    <span class="token function">hanoi</span><span class="token punctuation">(</span>n<span class="token punctuation">,</span> <span class="token char">'A'</span><span class="token punctuation">,</span> <span class="token char">'C'</span><span class="token punctuation">,</span> <span class="token char">'B'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 调用汉诺塔函数，A是起始柱，C是目标柱，B是辅助柱</span>
+    <span class="token keyword keyword-return">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+</code></pre><h3 id="32-用c语言输出n以内的素数速度越快越好">3.2. 用C语言输出n以内的素数。速度越快越好。 </h3>
+<p>输入：</p>
+<p>n</p>
+<p>输出：</p>
+<p>依次输入n以内的素数。</p>
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdlib.h&gt;</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdbool.h&gt;</span></span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-int">int</span> n<span class="token punctuation">;</span>
+    <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 输入n</span>
+    
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>n <span class="token operator">&lt;</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-return">return</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token comment">// 小于2没有素数</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token comment">// 创建筛子数组，isPrime[i]为true表示i是素数</span>
+    bool <span class="token operator">*</span>isPrime <span class="token operator">=</span> <span class="token punctuation">(</span>bool <span class="token operator">*</span><span class="token punctuation">)</span><span class="token function">malloc</span><span class="token punctuation">(</span><span class="token punctuation">(</span>n <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token keyword keyword-sizeof">sizeof</span><span class="token punctuation">(</span>bool<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token comment">// 初始化筛子，假设所有数都是素数</span>
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        isPrime<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> true<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    
+    isPrime<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> false<span class="token punctuation">;</span> <span class="token comment">// 0不是素数</span>
+    isPrime<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> false<span class="token punctuation">;</span> <span class="token comment">// 1不是素数</span>
+    
+    <span class="token comment">// 埃氏筛算法核心</span>
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span> i <span class="token operator">*</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>isPrime<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token comment">// 将i的所有倍数标记为非素数</span>
+            <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> j <span class="token operator">=</span> i <span class="token operator">*</span> i<span class="token punctuation">;</span> j <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> j <span class="token operator">+=</span> i<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                isPrime<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> false<span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token comment">// 输出所有素数</span>
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>isPrime<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d "</span><span class="token punctuation">,</span> i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token function">free</span><span class="token punctuation">(</span>isPrime<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 释放内存</span>
+    <span class="token keyword keyword-return">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+</code></pre><h3 id="33-编程程序功能删去一维数组中重复数只保留一个最后再输出">3.3. 编程程序，功能：删去一维数组中重复数，只保留一个，最后再输出。 </h3>
+<p>用宏定义定义数组大小。</p>
+<p>#define  N  20</p>
+<p>输入格式</p>
+<p>一维数组。</p>
+<p>输出格式</p>
+<p>去重之后的数组。</p>
+<p>输入输出样例</p>
+<p>输入</p>
+<p>2 2 2 3 4 4 5 6 6 6 6 7 7 8 9 9 10 10 10 10</p>
+<p>输出</p>
+<p>2 3 4 5 6 7 8 9 10</p>
+<p>用一个新的数组来检查元素是否存在</p>
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">define</span> <span class="token macro-name">N</span> <span class="token expression"><span class="token number">20</span> </span><span class="token comment">// 定义数组大小</span></span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-int">int</span> arr<span class="token punctuation">[</span>N<span class="token punctuation">]</span><span class="token punctuation">,</span> result<span class="token punctuation">[</span>N<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// 原始数组和结果数组</span>
+    <span class="token keyword keyword-int">int</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token comment">// 结果数组中的元素计数</span>
+    
+    <span class="token comment">// 输入数组</span>
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> N<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token comment">// 去重处理</span>
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> N<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-int">int</span> j<span class="token punctuation">;</span>
+        <span class="token comment">// 检查当前元素是否已经在结果数组中</span>
+        <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span>j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> count<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>result<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">==</span> arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token comment">// 如果不在结果数组中，则添加</span>
+        <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>j <span class="token operator">==</span> count<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            result<span class="token punctuation">[</span>count<span class="token operator">++</span><span class="token punctuation">]</span> <span class="token operator">=</span> arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token comment">// 输出去重后的结果</span>
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> count<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%d "</span><span class="token punctuation">,</span> result<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token keyword keyword-return">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+</code></pre>
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
