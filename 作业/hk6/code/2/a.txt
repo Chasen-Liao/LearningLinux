@@ -1,0 +1,4 @@
+I am child process 3, mypid is 5398
+I am child process 1, mypid is 5396
+I am child process 2, mypid is 5397
+I am father process, mypid is 5395

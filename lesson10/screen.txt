@@ -1,0 +1,47 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1 165940 10856 ?        Ss   20:32   0:00 /sbin/init
+root           2  0.0  0.0   3072  1792 ?        Sl   20:32   0:00 /init
+root           8  0.0  0.0   3088  1920 ?        Sl   20:32   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          62  0.0  0.1  64200 14076 ?        S<s  20:32   0:00 /lib/systemd/systemd-journald
+root          87  0.0  0.0  23288  5632 ?        Ss   20:32   0:00 /lib/systemd/systemd-udevd
+systemd+     121  0.0  0.1  26332 14036 ?        Ss   20:32   0:00 /lib/systemd/systemd-resolved
+systemd+     124  0.0  0.0  89364  7040 ?        Ssl  20:32   0:00 /lib/systemd/systemd-timesyncd
+root         200  0.0  0.0   9636  2816 ?        Ss   20:32   0:00 /usr/sbin/cron -f -P
+message+     202  0.0  0.0   8776  4608 ?        Ss   20:32   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         207  0.0  0.2  41196 20472 ?        Ss   20:32   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+syslog       208  0.0  0.0 222404  5504 ?        Ssl  20:32   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         211  0.0  0.0  15332  7168 ?        Ss   20:32   0:00 /lib/systemd/systemd-logind
+root         214  0.0  0.1 392700 11620 ?        Ssl  20:32   0:00 /usr/libexec/udisks2/udisksd
+root         236  0.0  0.0   8540  2432 hvc0     Ss+  20:32   0:00 /sbin/agetty -o -p -- \u --noclear --keep-baud console 115200,38400,9600 vt220
+root         239  0.0  0.0   8916  2048 tty1     Ss+  20:32   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         244  0.0  0.1 236232  8868 ?        Ssl  20:32   0:00 /usr/libexec/polkitd --no-debug
+root         256  0.0  0.2 118324 23808 ?        Ssl  20:32   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         331  0.0  0.0   3076   896 ?        Ss   20:32   0:00 /init
+root         332  0.0  0.0   3092  1024 ?        S    20:32   0:00 /init
+chasen       333  0.0  0.0  12044  5888 pts/0    Ss   20:32   0:00 -bash
+root         334  0.0  0.0   7564  4736 pts/1    Ss   20:32   0:00 /bin/login -f
+chasen       378  0.0  0.1  17196  9472 ?        Ss   20:32   0:00 /lib/systemd/systemd --user
+chasen       379  0.0  0.0 103492  5240 ?        S    20:32   0:00 (sd-pam)
+chasen       392  0.0  0.0  39720  6528 ?        Ssl  20:32   0:00 /usr/bin/pipewire
+chasen       393  0.0  0.0  23744  6784 ?        Ssl  20:32   0:00 /usr/bin/pipewire-media-session
+chasen       398  0.0  0.0  11520  5504 pts/1    S+   20:32   0:00 -bash
+rtkit        404  0.0  0.0 154004  3328 ?        SNsl 20:32   0:00 /usr/libexec/rtkit-daemon
+chasen       418  0.0  0.0   8300  4352 ?        Ss   20:32   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         581  0.0  0.0   3088  1028 ?        Ss   20:37   0:00 /init
+root         582  0.0  0.0   3088  1164 ?        S    20:37   0:00 /init
+chasen       583  0.0  0.0   2892  1536 pts/2    Ss+  20:37   0:00 sh -c "$VSCODE_WSL_EXT_LOCATION/scripts/wslServer.sh" 7d842fb85a0275a4a8e4d7e040d2625abbf7f084 stable code-server .vscode-server --host=127.0.0.1 --port=0 --connection-token=4061226516-2304819610-3205292923-3536327550 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+chasen       584  0.0  0.0   2892  1536 pts/2    S+   20:37   0:00 sh /mnt/c/Users/25588/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3/scripts/wslServer.sh 7d842fb85a0275a4a8e4d7e040d2625abbf7f084 stable code-server .vscode-server --host=127.0.0.1 --port=0 --connection-token=4061226516-2304819610-3205292923-3536327550 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+chasen       590  0.0  0.0   2892  1664 pts/2    S+   20:37   0:00 sh /home/chasen/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/code-server --host=127.0.0.1 --port=0 --connection-token=4061226516-2304819610-3205292923-3536327550 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+chasen       594  1.1  1.5 11843336 122480 pts/2 Sl+  20:37   0:03 /home/chasen/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node /home/chasen/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=4061226516-2304819610-3205292923-3536327550 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+root         605  0.0  0.0   3080  1028 ?        Ss   20:37   0:00 /init
+root         606  0.0  0.0   3096  1164 ?        S    20:37   0:00 /init
+chasen       607  0.1  0.7 1018132 59400 pts/3   Ssl+ 20:37   0:00 /home/chasen/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 56130 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+root         614  0.0  0.0   3080  1028 ?        Ss   20:37   0:00 /init
+root         615  0.2  0.0   3096  1164 ?        S    20:37   0:00 /init
+chasen       616  0.5  0.7 1013704 56024 pts/4   Ssl+ 20:37   0:01 /home/chasen/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 56130 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+chasen       636  0.0  0.7 1261864 58852 pts/2   Sl+  20:37   0:00 /home/chasen/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node /home/chasen/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/bootstrap-fork --type=fileWatcher
+chasen       662 13.2 12.3 55876452 990252 pts/2 Sl+  20:37   0:39 /home/chasen/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node --dns-result-order=ipv4first /home/chasen/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+chasen       739  0.0  0.7 1015016 58540 pts/2   Sl+  20:37   0:00 /home/chasen/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node /home/chasen/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=662
+chasen       757  1.9  0.6 120972 55484 pts/2    Sl+  20:37   0:05 /home/chasen/.vscode-server/extensions/ms-vscode.cpptools-1.29.0-linux-x64/bin/cpptools
+chasen      1354  0.4  0.3 4265256 24048 pts/2   Sl+  20:40   0:00 /home/chasen/.vscode-server/extensions/ms-vscode.cpptools-1.29.0-linux-x64/bin/cpptools-srv 757 {DF038F85-9FEA-47B2-A619-7334F96B417F}
+chasen      1672  0.0  0.0  13092  3712 pts/0    R+   20:42   0:00 ps -uax

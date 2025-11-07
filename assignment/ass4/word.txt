@@ -1,0 +1,12 @@
+This are a simple test file.
+It contains the word are several times.
+are at the start of a line:
+are
+At the end of a line are
+Within words: this, island, mission
+Mixed case: Is, IS, are.
+Punctuation around are: (are), "are", are!
+Multiple consecutive: are are are
+An empty line follows:
+
+End of file.
