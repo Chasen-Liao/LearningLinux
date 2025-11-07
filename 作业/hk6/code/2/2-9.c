@@ -3,17 +3,17 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
+#include <unistd.h> // fork, pipe, read, write, close
 #include <sys/wait.h>
 #include <string.h>
-#include <math.h>
+#include <math.h> 
 
 // 判断一个数是否为素数
 int is_prime(int num) {
     if (num <= 1) return 0;    // 小于等于1不是素数
     if (num == 2) return 1;    // 2是素数
     if (num % 2 == 0) return 0; // 偶数不是素数
-    for (int i = 3; i <= sqrt(num); i += 2) {
+    for (int i = 3; i*i <= num; i += 2) {
         if (num % i == 0) return 0;
     }
     return 1;
